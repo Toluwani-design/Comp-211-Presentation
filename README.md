@@ -20,6 +20,9 @@ What I learned:
 2. **Calling C is only faster if the data is already in C form.** Turning my Python list into a C array took about 750 times longer than the C sum itself, and it was even slower than just using the Python loop.
 3. **NumPy skips that problem.** A NumPy array keeps its numbers packed together from the start, so it never has to convert anything.
 
+## Presentation
+You can view the full slide deck here: [Comp 211 Python vs C Presentation (Google Slides)](https://docs.google.com/presentation/d/1Ph8b4soXo1sHJvGfCFQco9IgniUpAqfMihIkPzfUMn0/edit?usp=sharing)
+
 ## Files
 
 | File | What it does |
